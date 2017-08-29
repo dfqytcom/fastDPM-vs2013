@@ -1,0 +1,27 @@
+﻿生成启动时间为 2016/10/29 22:20:19。
+     1>项目“D:\新车代码以及文件\障碍物代码\FastDPM\FastDPM\FastDPM.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Platforms\x64\PlatformToolsets\v120\ImportAfter\Intel.Libs.MKL.v120.targets(38,5): warning : Could not expand MKLMajorVersion variable. The registry information may be incorrect.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Platforms\x64\PlatformToolsets\v120\ImportAfter\Intel.Libs.MKL.v120.targets(39,5): warning : Could not expand MKLMinorVersion variable. The registry information may be incorrect.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Platforms\x64\PlatformToolsets\v120\ImportAfter\Intel.Libs.MKL.v120.targets(40,5): warning : Could not expand MKLIncludeDir variable. The registry information may be incorrect.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Platforms\x64\PlatformToolsets\v120\ImportAfter\Intel.Libs.MKL.v120.targets(41,5): warning : Could not expand MKLLibDir variable. The registry information may be incorrect.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Platforms\x64\PlatformToolsets\v120\ImportAfter\Intel.Libs.MKL.v120.targets(42,5): warning : Could not expand OmpLibDir variable. The registry information may be incorrect.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\Opencv\Pre-built.2\include" /I"C:\Program Files\MATLAB\R2015b\toolbox\distcomp\gpu\extern\include" /Zi /nologo /W0 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Debug\FastDPM.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\Opencv\Pre-built.2\include" /I"C:\Program Files\MATLAB\R2015b\toolbox\distcomp\gpu\extern\include" /Zi /nologo /W0 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\FastDPM.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt FastDPM.cpp loadPyramid.cpp main.cpp yuStdDirFiles.cpp
+         yuStdDirFiles.cpp
+     1>yuStdDirFiles.cpp(71): error C2039: “min”: 不是“std”的成员
+     1>yuStdDirFiles.cpp(71): error C2065: “min”: 未声明的标识符
+     1>yuStdDirFiles.cpp(118): error C2039: “min”: 不是“std”的成员
+     1>yuStdDirFiles.cpp(118): error C3861: “min”:  找不到标识符
+     1>yuStdDirFiles.cpp(129): error C2039: “min”: 不是“std”的成员
+     1>yuStdDirFiles.cpp(129): error C3861: “min”:  找不到标识符
+         main.cpp
+         loadPyramid.cpp
+         FastDPM.cpp
+         正在生成代码...
+     1>已完成生成项目“D:\新车代码以及文件\障碍物代码\FastDPM\FastDPM\FastDPM.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:04.22
